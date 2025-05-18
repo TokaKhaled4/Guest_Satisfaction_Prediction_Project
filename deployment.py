@@ -130,7 +130,7 @@ By analyzing key factors influencing guest experiences, this tool provides insig
         }}
     </style>
 
-    <a href="https://your-documentation-link.com" target="_blank" class="hover-div-documentation">
+    <a href="https://github.com/TokaKhaled4/Guest_Satisfaction_Prediction_Project/blob/main/FINALREPORT_SC17.pdf" target="_blank" class="hover-div-documentation">
         <h4>View Our Documentation</h4>
     </a>
 """, unsafe_allow_html=True)
