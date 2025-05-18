@@ -1,2 +1,2 @@
-# Guest_Satisfaction_Prediction_Project
+# Guest Satisfaction Prediction Project
 This is a project for machine learning course
