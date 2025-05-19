@@ -16,7 +16,7 @@ Guest satisfaction is a crucial metric for Airbnb hosts and potential guests. Us
 - **Features**: 68 + 1 target  
 - **Target Columns**:  
   - `review_scores_rating` (Regression)  
-  - `guest_satisfaction` (Classification - engineered)  
+  - `guest_satisfaction` (Classification)  
 
 ## Preprocessing Steps
 
