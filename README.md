@@ -79,7 +79,7 @@ Guest satisfaction is a crucial metric for Airbnb hosts and potential guests. Us
 
 ## Deployment
 
-Built and deployed with **Streamlit** on [Streamlit Cloud](https://guest-satisfaction-project.streamlit.app/).
+Built and deployed with **Streamlit**
 
 ### App Features
 
