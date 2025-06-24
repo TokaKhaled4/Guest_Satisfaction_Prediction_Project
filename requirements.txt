@@ -9,3 +9,4 @@ powerbiclient
 lightgbm
 textblob
 nltk
+catboost
