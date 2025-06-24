@@ -10,3 +10,4 @@ lightgbm
 textblob
 nltk
 catboost
+xgboost
