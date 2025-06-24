@@ -14,7 +14,7 @@ import re
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-df = pd.read_csv('first20rowsclassi_nulls.csv')
+df = pd.read_csv('GuestSatisfactionPrediction_test/GuestSatisfactionPrediction_test_Classification.csv')
 
 
 
@@ -155,7 +155,7 @@ for col in columns_to_encode:
 for col in columns_to_encode:
     if col in df.columns:
         le = label_encoders[col]
-        df[col] = df[col].apply(lambda x: le.transform([x])[0]) 
+        df[col] = df[col].apply(lambda x: le.transform([x])[0] if x in le.classes_ else -1) 
 
 #-------------------------------------------------------------------------------------------------------------------
 # Binary Encoding

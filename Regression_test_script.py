@@ -11,7 +11,7 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error, mean_absolute_percentage_error,root_mean_squared_error
 
-df = pd.read_csv('regressionTestFirst20.csv')
+df = pd.read_csv('GuestSatisfactionPrediction_test\GuestSatisfactionPrediction_test_Reg.csv')
 
 summary_tfidf = joblib.load("regression_models/summary_tfidf_vectorizer")
 space_tfidf = joblib.load("regression_models/space_tfidf_vectorizer")
